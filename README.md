@@ -13,3 +13,14 @@ Dovranno poi essere eseguite le seguenti operazioni:
 * Pushare su master.
 
 Riportare i comandi git usati sul file onenote dell'esame insieme all'url del repository creato
+
+
+git clone https://github.com/sirstanislav/git-base-exam.git
+git checkout -b develop
+git checkout -b exam
+git branch
+git add . && git commit -m 'new feature' && git push
+git push --set-upstream origin exam
+git checkout master
+git merge exam
+git push
